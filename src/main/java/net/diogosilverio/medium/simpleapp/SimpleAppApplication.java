@@ -14,8 +14,8 @@ public class SimpleAppApplication {
     }
 
     @GetMapping
-    public Integer theAnswer(){
-        return 42;
+    public String theAnswer(){
+        return "The Answer to the Ultimate Question of Life, the Universe, and Everything is 42";
     }
 
 }
